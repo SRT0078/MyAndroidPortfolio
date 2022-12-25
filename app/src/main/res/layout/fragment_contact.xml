@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ContactFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@mipmap/img"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#F7CFD0D1">
+
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="32dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ic_baseline_arrow_back_24"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="270dp"
+                    android:background="@drawable/ic_baseline_more_vert" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/img_contact"
+                    tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#D0FFFFFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/editTextTextSearch"
+                        android:layout_width="261dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:autofillHints=""
+                        android:background="@drawable/contact_page_shape"
+                        android:ems="10"
+                        android:hint="@string/Search"
+                        android:inputType="textMultiLine"
+                        android:textAlignment="center"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                    <TextView
+                        android:id="@+id/ic_search_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:drawableLeftCompat="@drawable/ic_baseline_search_24" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/shape"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/editTextPhone"
+                        android:layout_width="261dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:autofillHints=""
+                        android:background="@drawable/contact_page_shape"
+                        android:ems="10"
+                        android:hint="@string/Phone_no"
+                        android:inputType="phone"
+                        android:textAlignment="center"
+                        tools:ignore="TextContrastCheck" />
+                    <TextView
+                        android:id="@+id/ic_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:drawableLeftCompat="@drawable/ic_baseline_phone_call" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:textSize="25sp"
+                        android:textColor="@color/black"
+                        android:text="@string/contact_us" />
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="#F7303030"
+                        android:text="@string/call_us_or_send_a_message_and_we_ll_respond_as_soon_as_possible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:background="#F8F8F8"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/editTextTextPersonName"
+                        android:layout_width="261dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:autofillHints=""
+                        android:background="@drawable/contact_page_shape"
+                        android:ems="10"
+                        android:hint="@string/Name"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        tools:ignore="TextContrastCheck" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:drawableLeftCompat="@drawable/ic_baseline_remove_red_eye_24" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:background="#F8F8F8"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/editTextTextEmailAddress"
+                        android:layout_width="261dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:autofillHints=""
+                        android:background="@drawable/contact_page_shape"
+                        android:ems="10"
+                        android:hint="@string/Email"
+                        android:inputType="textEmailAddress"
+                        android:textAlignment="center"
+                        tools:ignore="TextContrastCheck" />
+                    <TextView
+                        android:id="@+id/ic_gmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:drawableLeftCompat="@drawable/ic_baseline_email_24" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:background="#F8F8F8"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/editTextTextMultiLine"
+                        android:layout_width="261dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:autofillHints=""
+                        android:background="@drawable/contact_page_shape"
+                        android:ems="10"
+                        android:hint="@string/Description"
+                        android:inputType="textMultiLine"
+                        android:textAlignment="center"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:drawableLeftCompat="@drawable/ic_baseline_desription_24" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#03B0FF"
+                    android:text="@string/send"
+                    tools:ignore="TextContrastCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

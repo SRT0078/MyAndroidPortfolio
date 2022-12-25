@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkillFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewCount,UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="575dp"
+                android:layout_marginTop="95dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="25sp"
+                    android:text="@string/soft_skills"
+                    android:textAlignment="center"
+                    android:textColor="#FC040404"
+                    android:textSize="20sp" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape"
+                    android:columnCount="2"
+                    android:rowCount="5">
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:paddingStart="5sp"
+                        android:paddingTop="20dp"
+                        android:text="@string/communication_skills"
+                        android:textSize="15sp"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Self-motivation Skills"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Self management Skill"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Time management skill"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Computer skill"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Foreign language skill"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Leadership skill"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Customer service skill"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Critical Thinking skill"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="20dp"
+                        android:text="Teamwork skill"
+                        android:textSize="15sp" />
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="575dp"
+                android:layout_marginTop="95dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="25sp"
+                    android:text="@string/programming_skills"
+                    android:textAlignment="center"
+                    android:textColor="#FC040404"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:columnCount="2"
+                        android:rowCount="5">
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="10dp"
+                            android:text="programming Skills Java, python"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="10dp"
+                            android:text="Data Structures and Algorithms"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="Git version control Skills"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="Photoshop and Adobe Premier Por"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="DAndroid app development skills"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="Database and SQL"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="63dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="Knowledge about programming languages"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="UI/UX designing skills"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="UI/UX designing skills"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="5sp"
+                            android:paddingTop="20dp"
+                            android:text="Text editors Skills"
+                            android:textSize="15sp" />
+                    </GridLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</FrameLayout>
